@@ -25,7 +25,7 @@ function Grades() {
                        return (<td>{grade?.grade || ""}</td>);})}
                 </tr>);
             })}
-            </tbody></table>
+          </tbody></table>
       </div></div>);
 }
 export default Grades;
