@@ -8,9 +8,11 @@ import Home from "./Home";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
+import axios from "axios";
 import ModuleList from "./Modules/ModuleList";
 
 function Courses() {
+  
   const { courseId } = useParams();
   const {pathname} = useLocation();
   const [empty, kanbas, courses, id, screen] = pathname.split("/");
